@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 50%;
 }
 
 body {
@@ -57,7 +57,7 @@ body {
   display: block;
   content: '';
   height: 3px;
-  width: 12rem;
+  width: 3rem;
   background-color: #edc84b;
   position: absolute;
   top: calc(50% - 1px);
@@ -91,7 +91,7 @@ body {
   font-weight: 500;
 }
 
-.menu > p {
+.menu>p {
   font-size: 1.5rem;
   text-align: center;
   line-height: 1.6;
@@ -129,15 +129,16 @@ body {
 }
 
 .pizza p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 300;
   font-style: italic;
   margin-bottom: auto;
+  margin-block: 1rem;
 }
 
 .pizza span {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 .pizza.sold-out {
