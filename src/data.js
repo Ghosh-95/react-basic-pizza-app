@@ -1,4 +1,4 @@
-const pizzaData = [
+export const pizzaData = [
   {
     name: "Focaccia",
     ingredients: "Bread with italian olive oil and rosemary",
@@ -42,3 +42,12 @@ const pizzaData = [
     soldOut: false,
   },
 ];
+
+export const profileData = [
+  { skill: "HTML + CSS", background: "#0066cc" },
+  { skill: "JavaScript", background: "#ffcc00" },
+  { skill: "React", background: "#0099ff" },
+  { skill: "Redux", background: "#4d4dff" },
+  { skill: "Tailwind", background: "lightblue" },
+  { skill: "Git & GitHub", background: "#ff1a75" },
+]
